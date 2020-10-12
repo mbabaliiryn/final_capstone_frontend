@@ -32,9 +32,10 @@ const Signup = ( props ) => {
             onChange= { e => setPassword(e.target.value )}></input>
             <input  
             placeholder="Enter Age" 
+           
             value = { age } 
             onChange = { e => setAge(e.target.value)}></input>
-            <button type="submit">Submit</button>
+            <button type="submit" className="btn btn-primary mt-2">Submit</button>
         </form> 
         <Link to={{
                 pathname: "/signin"
