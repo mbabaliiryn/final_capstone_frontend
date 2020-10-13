@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { createActivity } from '../actions/activitiesAction'
 import { useDispatch } from 'react-redux'
+import Footer from '../components/Footer'
+
 
 const CreateActivity = ({ history }) => {
     const [title, setTitle] = useState('')
@@ -43,6 +45,7 @@ const CreateActivity = ({ history }) => {
                 </button>
             </form>
         </div>
+        <Footer/>
         </div>
     )
 }

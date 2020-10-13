@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { createMeasurement } from '../actions/measurementsAction'
 import { Link } from 'react-router-dom'
+import Footer from './Footer'
 
 
 const CreateMeasurement = (props) => {
@@ -75,6 +76,7 @@ const CreateMeasurement = (props) => {
                         </Link>
                     </button>
                 </div>
+                <Footer/>
         </div>
     )
 }
