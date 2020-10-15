@@ -1,13 +1,221 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.link-button {
+  border: none;
+  width: 100%;
+  height: 100%;
+  background-color: #303944;
+}
+
+.link-div {
+  height: 70px;
+  width: 25%;
+}
+
+.percentage-section {
+  width: 60px;
+  border: 5px solid lightgray;
+  height: 60px;
+  border-radius: 50%;
+  margin: auto;
+  font-size: small;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #738497;
+}
+
+.title-section {
+  text-align: center;
+  font-size: small;
+  color: lightgray;
+  padding-top: 5px;
+}
+
+.main-section {
+  width: 45%;
+  height: 100px;
+  position: relative;
+}
+
+i {
+  cursor: pointer;
+}
+
+.summary-section {
+  overflow-x: auto;
+  width: 477px;
+}
+
+.summary-section::-webkit-scrollbar{
+  width: 0;
+}
+
+.card-stuff {
+  min-width: 167px;
+}
+
+.activities-main {
+  background-color: #F3F4F6;
+}
+
+.lower-section {
+  position: absolute;
+  bottom: 0;
+}
+
+.links-info {
+  font-size: small;
+  text-decoration: none;
+}
+
+.image-det {
+  width: 100%;
+  height: 100%;
+}
+
+.home-section {
+  height: 100vh;
+  position: relative;
+  margin-top: 60px;
+}
+
+.footer {
+  background-color: yellow;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.image-section {
+  height: 100%;
+}
+
+.activity-title {
+  font-size: small;
+  font-weight: bold;
+}
+
+.menu-section {
+  /* top: 0;
+  left: 0; */
+  /* width: 80%; */
+  /* height: 30vh; */
+  /* z-index: 1; */
+  background-color: rgb(88, 196, 230);
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.menu-mask {
+  /* background-color: #000; */
+  opacity: 0.6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+
+.itag-section {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.header-section {
+  flex: 7;
+  display: flex;
+  justify-content: center;
+}
+
+.display-positive,
+.display-negative {
+  width: 50px;
+  border: 5px solid lightgray;
+  height: 50px;
+  border-radius: 50%;
+  margin: auto;
+  font-size: small;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #738497;
+}
+
+.random {
+  align-items: center;
+}
+
+.clock-border {
+  border: 1px solid #F3F4F6;
+  height: 17em;
+  display: flex;
+  width: 17em;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.start-watch,
+.stop-watch {
+  border: none;
+  padding: 15px 50px;
+  color: gray;
+}
+
+.stop-watch {
+  background-color: #97E494;
+}
+
+.activity-header {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.measure-section {
+  background-color: #F3F4F6;
+  height: 100vh;
+  margin-top: 60px;
+}
+
+.lower-section-button {
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+}
+
+.login-section {
+  margin-top: 60px;
+  background-color: #349ece;
+  height: 100vh;
+}
+
+.nav-bar-section {
+  position: fixed;
+  background-color: #42B5E8;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  padding: 0 20px;
+}
+
+.measurement-top {
+  margin-top: 60px;
+}
+
+.form-control {
+  width: 40rem;
 }

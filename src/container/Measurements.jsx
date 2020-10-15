@@ -31,9 +31,9 @@ const Measurements = (props) => {
 
     return (
         <div>
-            <div>
-                <button> 
-                    <Link to={{
+            <div className="measurement-top">
+                <button className= "btn btn-primary mt-2 ml-2 "> 
+                    <Link className="text-white" to={{
                         pathname: `/activity/${activityId}/create`,
                         state : activityId,
                         actTitle : actTitle

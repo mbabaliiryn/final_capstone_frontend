@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 const Button = ({ detail }) => {
     return(
-        <div>
-            <button>
+        <div className="link-div px-0">
+            <button className="link-button w-100 h-100">
                     <Link to={{
                         pathname: `${ detail.path }`
                     }}>

@@ -18,15 +18,15 @@ const Activities = () => {
     result.splice(4,2)
     let finalValue = result.join(' ')
 
-    return activitiesReducer.loading ? ( <div> <h1> Loading....</h1> </div> ) : 
+    return activitiesReducer.loading ? ( <div className="mt-4"> <h1> Loading....</h1> </div> ) : 
     activitiesReducer.error ? ( <div> { activitiesReducer.error } </div>) :
     (
-        <div >
-            <div>{ finalValue }</div>
-            <div>
+        <div className="home-section">
+            <div className="d-flex justify-content-center align-items-center pt-2">{ finalValue }</div>
+            <div  className="w-100">
                 <Summary activities = { activitiesReducer.activities }/>
             </div>
-            <div>
+            <div className="d-flex row col-sm-12 ml-1 activities-main">
                 {
                 activitiesReducer.activities.map((activity, key) => (
                         <Activity activity = { activity } key = { key }/>

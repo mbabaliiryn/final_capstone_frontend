@@ -53,34 +53,40 @@ const Measurement = ({ measurement, index, diffVal }) => {
         let positive;
         if(errorValue <= 0){
                 positive = 
-                <div>
-                    <div>
+                <div className="progess">
+                    <div className="display-positive" 
+                     style={{ borderRight : "5px solid #94E28E",
+                              borderBottom : "5px solid #94E28E" }}>
                         { errorValue }
                     </div>
                 </div>
         }else {
                 positive = 
-                <div>
-                    <div>
+                <div className="progess">
+                    <div className="display-negative" 
+                     style={{ borderRight : "5px solid #F24429",
+                              borderBottom : "5px solid #F24429" }}>
                         { errorValue }
                     </div>
                 </div>
         }
     return(
         <div>
-            <div> { title } </div>
-            <div>
-                <div>
+            <div className="col-md-4p-1 py-1 pl-2" style={{
+                backgroundColor: "#F3F4F6"
+            }}> { title } </div>
+            <div className="col-md-4 bg-warning px-0">
+                <div className="d-flex bg-info p-2 random">
                     <div>
                         { positive }
                     </div>
-                    <div>
+                    <div className="card m-1 col-md-7 p-1 bg-secondary">
                         <p>{ 
                             resToday.split(' ').slice(1).join(' ') 
                         }</p>
                         <p>{ measurement.duration } Hours</p>
                     </div>
-                    <div>
+                    <div className=" card m-1 col-md-3 p-1 border">
                         <p> { errorValue } </p>
                     </div>
                 </div>

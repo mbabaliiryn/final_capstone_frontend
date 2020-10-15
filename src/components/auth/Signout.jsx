@@ -13,7 +13,7 @@ const logOut = () => {
     return(
         <div>
             <button 
-            onClick={ logOut }>Sign Out</button>
+            onClick={ logOut } className="btn btn-white" >Sign Up</button>
         </div>
     )
 }

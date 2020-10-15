@@ -55,19 +55,19 @@ const CreateMeasurement = (props) => {
 
     }
     return (
-        <div>
-            <div >
+        <div  className="measure-section">
+            <div className="activity-header">
                 <p>Measure { actTitle }</p>
             </div>
-            <div >
-                <div>
+            <div className="mx-auto mt-4 clock-border" >
+                <div className="h1 d-flex justify-content-center">
                     <p>{ watch }</p>
                 </div>
             </div>
-            <div>
-                    <button onClick={ startWatch }>Start</button>
-                    <button onClick={ stopWatch } >
-                        <Link to={{
+            <div className="d-flex justify-content-center mt-4 bg-white p-2 lower-section-button">
+                    <button onClick={ startWatch } className="start-watch mr-1">Start</button>
+                    <button onClick={ stopWatch } className="stop-watch mr-1">
+                        <Link className="text-white"  to={{
                             pathname: `/activity/${ activityId }/measurements`,
                             state : activityId,
                             actTitle : actTitle
