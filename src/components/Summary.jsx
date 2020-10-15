@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types';
+
 
 const Summary = ( { activities }) => {
     let newArray = []
@@ -63,4 +65,9 @@ const Summary = ( { activities }) => {
     )
 }
 
+Summary.propTypes = {
+    activities: PropTypes.arrayOf(PropTypes.shape({
+      id: false,
+    })),
+  };
 export default Summary
