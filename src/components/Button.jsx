@@ -1,11 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import PropTypes from 'prop-types';
+
 
 const Button = ({ detail }) => {
     return(
         <div className="link-div px-0">
             <button className="link-button w-100 h-100">
-                    <Link to={{
+                    <Link 
+                    style={
+                        {
+                            color: '#ABAEB3'
+                        }
+                    }
+                    to={{
                         pathname: `${ detail.path }`
                     }}>
                      { detail.name }
@@ -14,5 +22,14 @@ const Button = ({ detail }) => {
         </div>
     )
 }
+
+Button.propTypes = {
+    detail: PropTypes.shape({
+      path: PropTypes.string,
+      className: PropTypes.string,
+      name: PropTypes.string,
+    }).isRequired,
+  };
+  
 
 export default Button
