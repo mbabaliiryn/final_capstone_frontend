@@ -1,6 +1,9 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import PropTypes from 'prop-types';
 import { createActivity } from '../actions/activitiesAction'
-import { useDispatch } from 'react-redux'
+
+
 import Footer from '../components/Footer'
 
 
@@ -49,5 +52,9 @@ const CreateActivity = ({ history }) => {
         </div>
     )
 }
+
+CreateActivity.propTypes = {
+    history: PropTypes.string,
+  };
 
 export default CreateActivity
