@@ -4,10 +4,10 @@ import Button from '../components/Button'
 const Footer = () => {
 
     let paths = [
-        { path: '/activities', name: 'Home' }, 
-        { path: '/create-activity', name: 'Create Activity' },
-        { path: '/', name: 'Your Progress' },
-        { path: '/', name: 'More' },
+        { path: '/activities', name: 'Home' , className: 'far-chart-bar'}, 
+        { path: '/create-activity', name: 'Create Activity', className: 'fas fa-chart-line fa-1x'  },
+        { path: '/informaion', name: 'Your Progress', className: 'fas fa-chart-pie' },
+        { path: '/activities', name: 'More', className: 'fas fa-ellipsis-h' },
     ]
     
     return (
