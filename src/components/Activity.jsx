@@ -10,19 +10,19 @@ const Activity = ({ activity }) => {
 
   const deleteAct = id => {
     dispatch(deleteActivity(id));
-  };
+  }
 
   return (
-    <div data-testid="appActivity" className="main-section d-flex p-1 bg-white">
+    <div >
       <div className="w-50 image-section p-3">
         <img src={activity.avatar.url} alt="boohoo" className="image-det" />
       </div>
       <div className="activity-body ml-1">
         <div>
-          <span className="activity-title text-secondary">
-            { activity.title.length < 9 ? `${activity.title}`
-              : `${activity.title.substring(0, 10)}...` }
-          </span>
+          <div className="activity-title text-secondary">
+            { activity.title.length < 15 ? `${activity.title}`
+              : `${activity.title.substring(0, 20)}...` }
+          </div>
         </div>
         <div className="activity-text text-secondary d-flex">
           <div className="activity-inner">

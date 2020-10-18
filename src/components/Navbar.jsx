@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import Signout from './auth/Signout'
 import {useTransition, animated} from 'react-spring'
+import Signout from './auth/Signout'
 
 
 const Navbar = () => {
@@ -12,9 +12,9 @@ const Navbar = () => {
             leave: { opacity: 0.8 },
         })
     const menuTransitions = useTransition(showMenu, null, {
-            // from: { position: 0, transform: "translateX(-100%)" },
-            // enter: { opacity: 1, transform: "translateX(0%)" },
-            // leave: { opacity: 0, transform: "translateX(-100%)" },
+            from: { position: 0, transform: "translateX(-100%)" },
+            enter: { opacity: 1, transform: "translateX(0%)" },
+            leave: { opacity: 0, transform: "translateX(-100%)" },
         })
 
     return(

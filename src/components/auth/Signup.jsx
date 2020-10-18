@@ -19,18 +19,18 @@ const Signup = ( props ) => {
 
     return(
         <div>
-        <div className="login-section col-md-6 border-right p-3">
+        <div className=" login-section col-md-6  p-3">
             <h3>Sign Up</h3>
         <form onSubmit = { submitData }>
             <input 
             placeholder="Enter User Name" className="form-control col-md-6 mb-2"
             value = { username } 
-            onChange={ e => setUsername(e.target.value) }></input>
+            onChange={ e => setUsername(e.target.value) }></input><br/>
             <input 
             placeholder="Enter Password"              className="form-control col-md-6 mb-2"
             type="password"
             value = { password } 
-            onChange= { e => setPassword(e.target.value )}></input>
+            onChange= { e => setPassword(e.target.value )}></input><br/>
             <input  
             placeholder="Enter Age" 
             className="form-control col-md-6"
@@ -40,7 +40,7 @@ const Signup = ( props ) => {
         </form> 
         <Link to={{
                 pathname: "/signin"
-            }}>
+            }}><br/>
                 Already have an Account?
             </Link>
         </div>

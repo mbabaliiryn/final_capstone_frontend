@@ -1,9 +1,10 @@
-import React, { useEffect } from'react'
-import Activity from '../components/Activity'
-import { useDispatch, useSelector } from 'react-redux'
-import { fetchActivities } from '../actions/activitiesAction'
-import Summary from '../components/Summary'
-import Footer from '../components/Footer'
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import Activity from '../components/Activity';
+import { fetchActivities } from '../actions/activitiesAction';
+import Summary from '../components/Summary';
+import Footer from '../components/Footer';
+
 
 const Activities = () => {
 

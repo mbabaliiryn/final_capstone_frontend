@@ -33,16 +33,16 @@ const CreateActivity = ({ history }) => {
                 type="text"
                 placeholder="Enter Title"
                 value = { title } 
-                onChange={ e => setTitle(e.target.value) } className="form-control mb-2"></input>
+                onChange={ e => setTitle(e.target.value) } className="form-control mb-2"></input><br/>
                 <input 
                 type="number"
                 placeholder="Enter Total"
                 value = { total } 
-                onChange={ e => setTotal(e.target.value) } className="form-control"></input>
+                onChange={ e => setTotal(e.target.value) } className="form-control"></input><br/>
                 <input
                 type='file'
                 onChange={(e) => setImage(e.target.files[0])}
-                ></input>
+                ></input><br/>
                 <button type="submit" className="btn btn-primary mt-1">
                     Create
                 </button>

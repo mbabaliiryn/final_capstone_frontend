@@ -13,7 +13,9 @@ const logOut = () => {
     return(
         <div>
             <button 
-            onClick={ logOut } className="btn btn-white" >Sign Up</button>
+            onClick={ logOut } className="btn btn-secondary" 
+            type="button"
+            >Sign Up</button>
         </div>
     )
 }

@@ -18,17 +18,17 @@ const Signin = (props) =>{
 
     return (
         <div>
-            <div className="login-section col-md-6 border-right p-3 d-flex flex-column justify-content-around align-items-center">
+            <div className="login-section col-md-6 p-3 d-flex flex-column justify-content-around align-items-center">
                 <h3>Log In</h3>
                 <form onSubmit={ saveData }>
-                    <input placeholder="Enter User Name" className="form-control mb-2 col-md-6" value = { username } onChange={(e) => setUsername(e.target.value)}></input>
+                    <input placeholder="Enter User Name" className="form-control mb-2 col-md-6" value = { username } onChange={(e) => setUsername(e.target.value)}></input><br/>
                     <input placeholder="Enter Password" className="form-control col-md-6" value = { password } onChange={(e) => setPassword(e.target.value)} type="password"></input>
                     <p>{ errorMessage ? errorMessage : '' }</p>
                     <button type="submit" className="btn btn-primary" >Submit</button> 
                 </form>
                 <Link to={{
                     pathname: "/signup"
-                    }}>
+                    }}><br/>
                         Don't have an account?
                 </Link>
             </div>
