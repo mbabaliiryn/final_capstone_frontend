@@ -13,18 +13,18 @@ const Activity = ({ activity }) => {
   }
 
   return (
-    <div >
+    <div className="main-section d-flex p-1 bg-white" >
       <div className="w-50 image-section p-3">
         <img src={activity.avatar.url} alt="boohoo" className="image-det" />
       </div>
       <div className="activity-body ml-1">
         <div>
-          <div className="activity-title text-secondary">
+          <div className="activity-title">
             { activity.title.length < 15 ? `${activity.title}`
               : `${activity.title.substring(0, 20)}...` }
           </div>
         </div>
-        <div className="activity-text text-secondary d-flex">
+        <div className="activity-text d-flex">
           <div className="activity-inner">
             { activity.total }
           </div>

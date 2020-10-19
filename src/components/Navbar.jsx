@@ -20,7 +20,7 @@ const Navbar = () => {
     return(
         <div  className="d-flex pt-4 text-white nav-bar-section">
             <div  className="header-section">
-                <h3>Track it</h3>
+                <h3>Activity Tracking App</h3>
             </div>
             <div className="itag-section">
                 <i className="fas fa-bars"

@@ -27,7 +27,7 @@ const Activities = () => {
             <div  className="w-100">
                 <Summary activities = { activitiesReducer.activities }/>
             </div>
-            <div className="d-flex row col-sm-12 ml-1 activities-main">
+            <div className="row col-sm-12 m-1 activities-main">
                 {
                 activitiesReducer.activities.map((activity, key) => (
                         <Activity activity = { activity } key = { key }/>

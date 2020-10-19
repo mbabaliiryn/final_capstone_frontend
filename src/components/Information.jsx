@@ -5,7 +5,7 @@ const Information = () => (
   <div data-testid="appInformation">
     <div className="information-section">
       <div className="copyright p-2 mb-3 d-flex ">
-        <h5 className="mx-auto"> Copyright © 2020 by Odong Alican </h5>
+        <h5 className="mx-auto"> Copyright © 2020 by Nanyonjo Irene </h5>
       </div>
       <div className="p-2 text-center text-secondary copyright">
         All rights reserved. No part of this publication may be reproduced, distributed,
@@ -19,7 +19,7 @@ const Information = () => (
         For permission requests,
         write to the Software developer, addressed “Attention: Permissions
         Coordinator,” at the address below.
-        <p>sandieo.2020@gmail.com</p>
+        <p>mbabaliiryn@gmail.com</p>
       </div>
     </div>
     <Footer />

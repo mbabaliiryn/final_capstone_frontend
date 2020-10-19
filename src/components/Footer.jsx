@@ -1,18 +1,15 @@
 import React from 'react'
 import Button from '../components/Button'
-import createActivity from '../images/add-stack.png';
-import More from '../images/track-it.png';
-import progress from '../images/progress.png';
-import home from '../images/home.png';
+
 
 const Footer = () => {
 
-    let paths = [
-        { path: '/activities', name: <img className="footer-img" src={home} alt="add-stack" /> , className: 'far-chart-bar'}, 
-        { path: '/create-activity', name: <img className="footer-img" src={createActivity} alt="add-stack" />, className: 'fas fa-chart-line fa-1x'  },
-        { path: '/informaion', name: <img className="footer-img" src={progress} alt="add-stack" />, className: 'fas fa-chart-pie' },
-        { path: '/activities', name:  <img className="footer-img" src={More} alt="add-stack" />, className: 'fas fa-ellipsis-h' },
-    ]
+    const paths = [
+        { path: '/activities', name: 'Home', className: 'far fa-chart-bar footer-btn' },
+        { path: '/create-activity', name: 'Create Activity', className: 'fas fa-chart-line footer-btn' },
+        { path: '/information', name: 'Information', className: 'fas fa-chart-pie footer-btn' },
+        { path: '/activities', name: 'More', className: 'fas fa-ellipsis-h footer-btn' },
+      ];
     
     return (
             <div className="footer">

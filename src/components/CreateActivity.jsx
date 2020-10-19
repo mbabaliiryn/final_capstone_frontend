@@ -26,7 +26,7 @@ const CreateActivity = ({ history }) => {
 
     return (
         <div>
-        <div  className="card col-md-3 p-3">
+        <div  className="card col-md-3 p-3  bg-secondary">
             <h3>Create Activity</h3>
             <form onSubmit={ submitAcvtivty }>
                 <input 
@@ -43,7 +43,7 @@ const CreateActivity = ({ history }) => {
                 type='file'
                 onChange={(e) => setImage(e.target.files[0])}
                 ></input><br/>
-                <button type="submit" className="btn btn-primary mt-1">
+                <button type="submit" className="btn btn-success mt-1">
                     Create
                 </button>
             </form>

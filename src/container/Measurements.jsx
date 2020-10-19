@@ -38,7 +38,7 @@ const Measurements = (props) => {
                         state : activityId,
                         actTitle : actTitle
                     }}>
-                        Add
+                        +
                     </Link>
                  </button>
             </div>
