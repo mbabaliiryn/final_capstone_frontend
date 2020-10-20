@@ -14,15 +14,22 @@ User can create various activities and monitor his or her progress. For example 
 Live Link
  ## Screenshots
 
-![Screenshot from 2020-09-28 10-45-59](https://user-images.githubusercontent.com/44978186/94404646-023a2380-0178-11eb-92fc-76c5909f4c56.png)
+![Screenshot from 2020-10-20 10-55-04](https://user-images.githubusercontent.com/44978186/96592907-97e94e80-12f1-11eb-9117-74a159145c23.png)
 
 
+![Screenshot from 2020-10-20 10-54-37](https://user-images.githubusercontent.com/44978186/96593057-c404cf80-12f1-11eb-870c-ca87eb45cc35.png)
 
-![Screenshot from 2020-09-28 10-46-24](https://user-images.githubusercontent.com/44978186/94404783-31e92b80-0178-11eb-9531-8d46377c16a2.png)
+
+![Screenshot from 2020-10-20 16-34-39](https://user-images.githubusercontent.com/44978186/96593466-34135580-12f2-11eb-9e00-ff4027ccd754.png)
+
+
+![Screenshot from 2020-10-20 10-36-24](https://user-images.githubusercontent.com/44978186/96593194-e26acb00-12f1-11eb-9cbc-77569068fd8f.png)
+
+![Screenshot from 2020-10-20 16-35-55](https://user-images.githubusercontent.com/44978186/96593620-5e651300-12f2-11eb-824f-b3c3dcbb41b6.png)
 
 ## Live demo
 
-[Live Link](https://mbabaliiryn.github.io/react-capstone/)
+[Live Link](https://gracious-blackwell-9534ef.netlify.app/)
 
 ## Project Setup
 - Fork the Project to your remote repository
