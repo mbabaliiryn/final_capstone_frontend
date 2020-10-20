@@ -1,12 +1,12 @@
-import { combineReducers } from 'redux'
-import authReducer from './authReducer'
-import activitiesReducer from './activitiesReducer'
-import measurementsReducer from './measurementsReducer'
+import { combineReducers } from 'redux';
+import authReducer from './authReducer';
+import activitiesReducer from './activitiesReducer';
+import measurementsReducer from './measurementsReducer';
 
 const rootReducer = combineReducers({
-    authReducer,
-    activitiesReducer,
-    measurementsReducer
-})
+  authReducer,
+  activitiesReducer,
+  measurementsReducer,
+});
 
-export default rootReducer
+export default rootReducer;

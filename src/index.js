@@ -1,33 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { Provider } from 'react-redux'
-import { createStore, applyMiddleware } from 'redux'
-import { composeWithDevTools } from 'redux-devtools-extension'
-import thunk from 'redux-thunk'
-import rootReducer from './reducers'
-import Router from './components/Router'
-import { AUTHENTICATED } from './actions/index'
-import 'bootstrap/dist/css/bootstrap.css'
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware } from 'redux';
+import { composeWithDevTools } from 'redux-devtools-extension';
+import thunk from 'redux-thunk';
+import rootReducer from './reducers';
+import Router from './components/Router';
+import { AUTHENTICATED } from './actions/index';
+import 'bootstrap/dist/css/bootstrap.css';
 
 const store = createStore(
   rootReducer,
-  composeWithDevTools(applyMiddleware(thunk))
-)
+  composeWithDevTools(applyMiddleware(thunk)),
+);
 
-const user = localStorage.getItem('user')
+const user = localStorage.getItem('user');
 
-if(user){
+if (user) {
   store.dispatch({
-    type: AUTHENTICATED
-  })
+    type: AUTHENTICATED,
+  });
 }
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store = { store }>
+    <Provider store={store}>
       <Router />
     </Provider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
