@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches Measurement snapshot 1`] = `
+<div
+  className="application-measurement"
+  data-testid="appMeasurement"
+>
+  <div
+    className="application-measurement-one p-1 py-1 pl-2"
+    style={
+      Object {
+        "backgroundColor": "#F3F4F6",
+        "color": "grey",
+      }
+    }
+  >
+     
+    Invalid
+     
+  </div>
+  <div
+    className="application-measurement-two px-0"
+  >
+    <div
+      className="d-flex p-2 random"
+    >
+      <div>
+        <div
+          className="progess"
+        >
+          <div
+            className="display-positive"
+            style={
+              Object {
+                "borderBottom": "5px solid #94E28E",
+                "borderRight": "5px solid #94E28E",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="m-1 w-50 p-1 date-value"
+      >
+        <h6>
+          Date
+        </h6>
+        <span>
+           
+          Hours
+        </span>
+      </div>
+      <div
+        className="mx-auto w-50 p-1 date-value d-flex"
+      >
+        <h6
+          className="ml-auto"
+        >
+           
+          0.00
+          <span>
+             
+            hrs
+            <i
+              className="fas fa-angle-right ml-2 mt-2"
+            />
+          </span>
+        </h6>
+      </div>
+    </div>
+  </div>
+</div>
+`;

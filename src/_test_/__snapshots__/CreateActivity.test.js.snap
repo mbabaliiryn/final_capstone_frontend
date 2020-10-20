@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches CreatActivity snapshot 1`] = `
+Array [
+  <div
+    className="create-activity"
+    data-testid="appCreateActivity"
+  >
+    <div
+      className="create-activity-inner"
+    >
+      <div
+        className="activity-heading mb-2 p-3"
+      >
+        <span>
+          You can add a photo to your activity
+        </span>
+      </div>
+      <div
+        className="image-upload m-3 p-2 d-flex"
+      >
+        <div
+          className="left-image"
+        >
+          <i
+            className="fas fa-tv"
+          />
+        </div>
+        <div
+          className="right-image"
+        >
+          <i
+            className="fas fa-church"
+          />
+        </div>
+      </div>
+      <div>
+        <form
+          onSubmit={[Function]}
+        >
+          <input
+            className="input-control mb-2"
+            onChange={[Function]}
+            placeholder="Enter Title"
+            type="text"
+            value=""
+          />
+          <input
+            className="input-control"
+            onChange={[Function]}
+            placeholder="Enter Total"
+            type="number"
+            value=""
+          />
+          <input
+            className="mt-2 btn-control file-section"
+            onChange={[Function]}
+            type="file"
+          />
+          <button
+            className="btn-control mt-1"
+            type="submit"
+          >
+            Create
+          </button>
+        </form>
+      </div>
+    </div>
+    <div
+      className="footer"
+      data-testid="appFooter"
+    >
+      <div
+        className="link-div px-0"
+        data-testid="appButton"
+      >
+        <button
+          className="link-button"
+          type="button"
+        >
+          <a
+            href="/activities"
+            onClick={[Function]}
+            style={
+              Object {
+                "color": "#ABAEB3",
+              }
+            }
+          >
+            <i
+              className="far fa-chart-bar footer-btn"
+            />
+            <p>
+              Home
+            </p>
+          </a>
+        </button>
+      </div>
+      <div
+        className="link-div px-0"
+        data-testid="appButton"
+      >
+        <button
+          className="link-button"
+          type="button"
+        >
+          <a
+            href="/create-activity"
+            onClick={[Function]}
+            style={
+              Object {
+                "color": "#ABAEB3",
+              }
+            }
+          >
+            <i
+              className="fas fa-chart-line footer-btn"
+            />
+            <p>
+              Create Activity
+            </p>
+          </a>
+        </button>
+      </div>
+      <div
+        className="link-div px-0"
+        data-testid="appButton"
+      >
+        <button
+          className="link-button"
+          type="button"
+        >
+          <a
+            href="/information"
+            onClick={[Function]}
+            style={
+              Object {
+                "color": "#ABAEB3",
+              }
+            }
+          >
+            <i
+              className="fas fa-chart-pie footer-btn"
+            />
+            <p>
+              Information
+            </p>
+          </a>
+        </button>
+      </div>
+      <div
+        className="link-div px-0"
+        data-testid="appButton"
+      >
+        <button
+          className="link-button"
+          type="button"
+        >
+          <a
+            href="/activities"
+            onClick={[Function]}
+            style={
+              Object {
+                "color": "#ABAEB3",
+              }
+            }
+          >
+            <i
+              className="fas fa-ellipsis-h footer-btn"
+            />
+            <p>
+              More
+            </p>
+          </a>
+        </button>
+      </div>
+    </div>
+  </div>,
+  ",",
+]
+`;

@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches Footer snapshot 1`] = `
+<div
+  className="footer"
+  data-testid="appFooter"
+>
+  <div
+    className="link-div px-0"
+    data-testid="appButton"
+  >
+    <button
+      className="link-button"
+      type="button"
+    >
+      <a
+        href="/activities"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "#ABAEB3",
+          }
+        }
+      >
+        <i
+          className="far fa-chart-bar footer-btn"
+        />
+        <p>
+          Home
+        </p>
+      </a>
+    </button>
+  </div>
+  <div
+    className="link-div px-0"
+    data-testid="appButton"
+  >
+    <button
+      className="link-button"
+      type="button"
+    >
+      <a
+        href="/create-activity"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "#ABAEB3",
+          }
+        }
+      >
+        <i
+          className="fas fa-chart-line footer-btn"
+        />
+        <p>
+          Create Activity
+        </p>
+      </a>
+    </button>
+  </div>
+  <div
+    className="link-div px-0"
+    data-testid="appButton"
+  >
+    <button
+      className="link-button"
+      type="button"
+    >
+      <a
+        href="/information"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "#ABAEB3",
+          }
+        }
+      >
+        <i
+          className="fas fa-chart-pie footer-btn"
+        />
+        <p>
+          Information
+        </p>
+      </a>
+    </button>
+  </div>
+  <div
+    className="link-div px-0"
+    data-testid="appButton"
+  >
+    <button
+      className="link-button"
+      type="button"
+    >
+      <a
+        href="/activities"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "#ABAEB3",
+          }
+        }
+      >
+        <i
+          className="fas fa-ellipsis-h footer-btn"
+        />
+        <p>
+          More
+        </p>
+      </a>
+    </button>
+  </div>
+</div>
+`;

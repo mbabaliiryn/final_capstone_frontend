@@ -68,7 +68,7 @@ const CreateMeasurement = ({ location }) => {
           <p>{ watch }</p>
         </div>
       </div>
-      <div className="d-flex justify-content-center mt-4 bg-white p-2 lower-section-button">
+      <div className="d-flex justify-content-center mt-4 p-2 lower-section-button">
         <button type="button" onClick={startWatch} className="start-watch mr-1">Start</button>
         <button type="button" onClick={stopWatch} className="stop-watch mr-1">
           <Link

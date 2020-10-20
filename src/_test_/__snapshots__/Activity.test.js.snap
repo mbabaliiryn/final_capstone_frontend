@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches Activity snapshot 1`] = `
+Array [
+  <div
+    className="main-section d-flex p-1 bg-white"
+    data-testid="appActivity"
+  >
+    <div
+      className="image-section p-3"
+    >
+      <img
+        alt="boohoo"
+        className="image-det"
+        src="sample"
+      />
+    </div>
+    <div
+      className="activity-body ml-1"
+    >
+      <div
+        className="w-100 title-div-section"
+      >
+        <div
+          className="activity-title text-secondary d-flex"
+        >
+          test title
+        </div>
+      </div>
+      <div
+        className="activity-text text-secondary d-flex"
+      >
+        <div
+          className="activity-inner"
+        >
+          test total
+        </div>
+        <div>
+          <small>
+            Hrs
+          </small>
+        </div>
+      </div>
+      <div
+        className="lower-section"
+      >
+        <a
+          className="links-info"
+          href="/activity/undefined/measurements"
+          onClick={[Function]}
+        >
+          <button
+            className="button-details w-75 mr-1"
+            type="button"
+          >
+            Details
+          </button>
+        </a>
+        <div>
+          <i
+            className="far fa-trash-alt trash-section"
+            onClick={[Function]}
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  ",",
+]
+`;

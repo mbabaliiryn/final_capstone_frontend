@@ -24,7 +24,7 @@
   
   .percentage-section {
     width: 95px;
-    border: 5px solid rgb(255, 255, 255);
+    border: 5px solid lightgray;
     height: 90px;
     border-radius: 50%;
     margin: auto;
@@ -34,7 +34,7 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    color: #ffffff;
+    color: #738497;
   }
   
   .title-section {
@@ -100,14 +100,6 @@
     margin-top: 60px;
   }
   
-  .footer {
-    background-color: yellow;
-    display: flex;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-  }
-  
   .image-section {
     height: 100%;
     background-color: #f3f4f6;
@@ -160,6 +152,7 @@
     flex: 7;
     display: flex;
     justify-content: center;
+    font-weight: bold;
   }
   
   .display-positive,
@@ -185,25 +178,31 @@
   }
   
   .clock-border {
-    border: 1px solid #f3f4f6;
     height: 17em;
     display: flex;
     width: 17em;
-    border-radius: 50%;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-image: url(images/hours.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .start-watch,
   .stop-watch {
     border: none;
     padding: 15px 50px;
-    color: gray;
+    color: rgb(255, 255, 255);
+  }
+
+  .start-watch {
+    background-color: rgba(46, 88, 3, 0.623);
+    border-radius: 30px;
   }
   
   .stop-watch {
-    background-color: #97e494;
+    background-color: #ee190a;
+    border-radius: 30px;
   }
   
   .activity-header {
@@ -223,12 +222,7 @@
     margin: auto;
     justify-content: center;
   }
-  
-  .login-section {
-    margin-left: 25em;
-    margin-top: 5rem;
-  }
-  
+
   .nav-bar-section {
     position: fixed;
     background-color: #42b5e8;
@@ -276,7 +270,7 @@
   .activity-heading {
     padding: 10px;
     text-align: center;
-    color: #ffffff;
+    color: #afb0b2;
     width: 100%;
     background-color: #fff;
   }
@@ -287,7 +281,7 @@
   
   .left-image,
   .right-image {
-    background-color: #ffffff;
+    background-color: #a3a6ad;
     margin: 0 5px;
     flex: 1;
     display: flex;
@@ -315,7 +309,7 @@
   }
   
   .file-section {
-    background-color: #ffffff;
+    background-color: #a3a6ad;
     padding: 10px;
   }
   
@@ -369,12 +363,11 @@
   
   .footer-img {
     width: 30%;
-    font-size: 25px;
   }
   
   .add-stack {
     font-size: 1.5rem;
-    color: #f7f7f7;
+    color: #313944;
   }
   
   .card {
@@ -386,54 +379,88 @@
     width: 100%;
   }
 
+  .footer-btn {
+    font-size: 25px;
+  }
 
-@media only screen and (max-width: 768px) {
-  .footer {
+  .general-login-section {
+    padding: 30px 10%;
+  }
+  
+  .login-section {
+    background-color: #d2d6df;
+    margin-top: 60px;
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    height: 60px;
-    top: unset;
+    flex-direction: column;
+    align-items: center;
   }
-
-  .link-div {
-    height: 70px;
-    width: 25%;
-  }
-
-  .link-button {
+  
+  .login-section input {
     border: none;
-    width: 100%;
-    height: 100%;
-    background-color: #303944;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: medium;
+    font-weight: normal;
+    outline: none;
   }
 
-  .main-section {
-    height: 100px;
-  }
 
-  .date-section {
-    margin-left: 0;
-  }
-
-  .activities-main {
-    margin-left: 0 !important;
-    width: 100%;
-  }
-
-  .summary-display-section,
-  .create-activity-inner,
-  .information-section,
-  .measurement-outer-section {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .activity-title {
-    font-size: small;
-    font-weight: bold;
-  }
+.button-footer {
+  background-color: #313944;
+  position: fixed;
+  bottom: 0;
 }
 
+.button-footer .btn {
+  color: #acafb4;
+  font-size: 1rem;
+}
+
+.footer-img {
+  width: 30%;
+}
+
+.footer-btn:active {
+  background-color: #41b5e8 !important;
+  color: #fff !important;
+}
+
+.footer-btn:focus {
+  background-color: #41b5e8 !important;
+  color: #fff !important;
+}
+
+.footer-btn:visited {
+  background-color: #41b5e8 !important;
+  color: #fff !important;
+}
+
+
+.button-footer .btn {
+  color: #acafb4;
+  font-size: 1rem;
+}
+
+.footer-img {
+  width: 30%;
+}
+
+.footer-btn:active {
+  background-color: #41b5e8 !important;
+  color: #fff !important;
+}
+
+.footer-btn:focus {
+  background-color: #41b5e8 !important;
+  color: #fff !important;
+}
+
+.footer-btn:visited {
+  background-color: #41b5e8 !important;
+  color: #fff !important;
+}
+
+
+  

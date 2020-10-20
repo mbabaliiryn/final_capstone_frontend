@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches Summary snapshot 1`] = `
+<div
+  className="d-flex summary-section"
+  data-testid="appSummary"
+>
+  <div
+    className=" card-stuff pt-2 pb-2"
+  >
+    <div
+      className="percentage-section"
+      style={
+        Object {
+          "border": "5px solid #F24429",
+        }
+      }
+    >
+      <div>
+        100
+      </div>
+      <div>
+        %
+      </div>
+    </div>
+    <div
+      className="title-section"
+    >
+      <span />
+    </div>
+  </div>
+</div>
+`;

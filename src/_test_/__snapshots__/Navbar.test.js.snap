@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches navbar snapshot 1`] = `
+<div
+  className="d-flex pt-4 text-white nav-bar-section"
+  data-testid="navbar"
+>
+  <div
+    className="header-section"
+  >
+    <h3>
+      Track it
+    </h3>
+  </div>
+  <div
+    className="itag-section"
+  >
+    <i
+      className="fas fa-power-off"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

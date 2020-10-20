@@ -13,7 +13,7 @@ const Activity = ({ activity }) => {
   }
 
   return (
-    <div className="main-section d-flex p-1 bg-white" >
+    <div data-testid="appActivity" className="main-section d-flex p-1 bg-white" >
       <div className="w-50 image-section p-3">
         <img src={activity.avatar.url} alt="boohoo" className="image-det" />
       </div>

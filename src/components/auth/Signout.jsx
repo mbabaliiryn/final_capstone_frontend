@@ -11,7 +11,7 @@ const logOut = () => {
 }
 
     return(
-        <div>
+        <div data-testid="appSignout">
             <button 
             onClick={ logOut } className="btn btn-secondary" 
             type="button"

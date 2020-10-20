@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches Signout snapshot 1`] = `
+<div
+  data-testid="appSignout"
+>
+  <button
+    className="btn btn-secondary"
+    onClick={[Function]}
+    type="button"
+  >
+    Sign Out
+  </button>
+</div>
+`;

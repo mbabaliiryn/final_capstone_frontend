@@ -25,8 +25,8 @@ const CreateActivity = ({ history }) => {
     }
 
     return (
-        <div>
-        <div  className="card col-md-3 p-3  bg-secondary">
+        <div data-testid="appCreateActivity" className="create-activity">
+        <div  className=" col-md-3 p-3  bg-secondary">
             <h3>Create Activity</h3>
             <form onSubmit={ submitAcvtivty }>
                 <input 

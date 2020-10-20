@@ -1,25 +1,49 @@
-import React from 'react'
-import Button from '../components/Button'
 
+import React from 'react';
+import { Link } from 'react-router-dom';
+import addImg from '../images/add-stack.png';
+import home from '../images/home.png';
+import trackIt from '../images/track-it.png';
+import progress from '../images/progress.png';
 
-const Footer = () => {
+const Footer = () => (
 
-    const paths = [
-        { path: '/activities', name: 'Home', className: 'far fa-chart-bar footer-btn' },
-        { path: '/create-activity', name: 'Create Activity', className: 'fas fa-chart-line footer-btn' },
-        { path: '/information', name: 'Information', className: 'fas fa-chart-pie footer-btn' },
-        { path: '/activities', name: 'More', className: 'fas fa-ellipsis-h footer-btn' },
-      ];
-    
-    return (
-            <div className="footer">
-                {
-                    paths.map((val, key)=> (
-                        <Button key = { key } detail = { val }/>
-                    ))
-                }
-            </div>
-        )
-}
+  <footer className="footer mt-auto w-100 button-footer d-flex align-items-center">
+    <Link
+      to="/activities"
+      className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
+      role="button"
+    >
+        <img className="footer-img" src={home} alt="add-stack" />
+      <p className="mb-0">Home</p>
+    </Link>
+    <Link
+      to="/create-activity"
+      className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
+      role="button"
+    >
+        <img className="footer-img" src={addImg} alt="add-stack" />
+      
+      <p className="mb-0">Create Activity</p>
+    </Link>
+    <Link
+      to="/information"
+      className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
+      role="button"
+    >
+      <img className="footer-img" src={progress} alt="add-stack" />
+      <p className="mb-0">Information</p>
+    </Link>
+    <Link
+      to="/activities"
+      className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
+      role="button"
+    >
+        <img className="footer-img" src={trackIt} alt="add-stack" />
+      <p className="mb-0">More</p>
+    </Link>
+  </footer>
+  
+);
 
-export default Footer
+export default Footer;

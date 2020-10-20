@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches Information snapshot 1`] = `
+<div
+  data-testid="appInformation"
+>
+  <div
+    className="information-section"
+  >
+    <div
+      className="copyright p-2 mb-3 d-flex "
+    >
+      <h5
+        className="mx-auto"
+      >
+         Copyright © 2020 by Odong Alican 
+      </h5>
+    </div>
+    <div
+      className="p-2 text-center text-secondary copyright"
+    >
+      All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the developer , except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law.
+    </div>
+    <div
+      className="copyright text-center p-4 text-secondary"
+    >
+      For permission requests, write to the Software developer, addressed “Attention: Permissions Coordinator,” at the address below.
+      <p>
+        sandieo.2020@gmail.com
+      </p>
+    </div>
+  </div>
+  <div
+    className="footer"
+    data-testid="appFooter"
+  >
+    <div
+      className="link-div px-0"
+      data-testid="appButton"
+    >
+      <button
+        className="link-button"
+        type="button"
+      >
+        <a
+          href="/activities"
+          onClick={[Function]}
+          style={
+            Object {
+              "color": "#ABAEB3",
+            }
+          }
+        >
+          <i
+            className="far fa-chart-bar footer-btn"
+          />
+          <p>
+            Home
+          </p>
+        </a>
+      </button>
+    </div>
+    <div
+      className="link-div px-0"
+      data-testid="appButton"
+    >
+      <button
+        className="link-button"
+        type="button"
+      >
+        <a
+          href="/create-activity"
+          onClick={[Function]}
+          style={
+            Object {
+              "color": "#ABAEB3",
+            }
+          }
+        >
+          <i
+            className="fas fa-chart-line footer-btn"
+          />
+          <p>
+            Create Activity
+          </p>
+        </a>
+      </button>
+    </div>
+    <div
+      className="link-div px-0"
+      data-testid="appButton"
+    >
+      <button
+        className="link-button"
+        type="button"
+      >
+        <a
+          href="/information"
+          onClick={[Function]}
+          style={
+            Object {
+              "color": "#ABAEB3",
+            }
+          }
+        >
+          <i
+            className="fas fa-chart-pie footer-btn"
+          />
+          <p>
+            Information
+          </p>
+        </a>
+      </button>
+    </div>
+    <div
+      className="link-div px-0"
+      data-testid="appButton"
+    >
+      <button
+        className="link-button"
+        type="button"
+      >
+        <a
+          href="/activities"
+          onClick={[Function]}
+          style={
+            Object {
+              "color": "#ABAEB3",
+            }
+          }
+        >
+          <i
+            className="fas fa-ellipsis-h footer-btn"
+          />
+          <p>
+            More
+          </p>
+        </a>
+      </button>
+    </div>
+  </div>
+</div>
+`;

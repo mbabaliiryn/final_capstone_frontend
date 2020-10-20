@@ -30,7 +30,7 @@ const Measurements = (props) => {
     }
 
     return (
-        <div>
+        <div data-testid="appMeasurements">
             <div className="measurement-top">
                 <button className= "btn btn-primary mt-2 ml-2 "> 
                     <Link className="text-white" to={{

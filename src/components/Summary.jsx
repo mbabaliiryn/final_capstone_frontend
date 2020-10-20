@@ -10,7 +10,7 @@ const Summary = ( { activities }) => {
 
         const res = newArray.reduce((val, num) => val + num, 0)
     return(
-        <div className="d-flex summary-section">
+        <div data-testid="appSummary" className="d-flex summary-section">
             {
                 activities.map((val, index) => {
                     let percentageValue = parseInt(((parseInt(val.total) / res)) * 100)

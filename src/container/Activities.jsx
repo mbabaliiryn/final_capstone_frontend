@@ -19,10 +19,10 @@ const Activities = () => {
     result.splice(4,2)
     let finalValue = result.join(' ')
 
-    return activitiesReducer.loading ? ( <div className="mt-4"> <h1> Loading....</h1> </div> ) : 
-    activitiesReducer.error ? ( <div> { activitiesReducer.error } </div>) :
+    return activitiesReducer.loading ? ( <div  data-testid="appActivities"  className="mt-4"> <h1> Loading....</h1> </div> ) : 
+    activitiesReducer.error ? ( <div data-testid="appActivities"> { activitiesReducer.error } </div>) :
     (
-        <div className="home-section">
+        <div data-testid="appActivities" className="home-section">
             <div className="d-flex justify-content-center align-items-center pt-2">{ finalValue }</div>
             <div  className="w-100">
                 <Summary activities = { activitiesReducer.activities }/>
