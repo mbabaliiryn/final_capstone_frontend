@@ -1,7 +1,6 @@
 ## Activity Tracking APP
 User can create various activities and monitor his or her progress. For example if a user wants to measure how much time performing a certain taks e.g Programming, he or she can time himeself daily to see if he spent less time or more time performing certain task. For this scope, the users are expected to create various activities and monitor their daily progress while performing these activities. The application is built for all screen types i.e Desktop, mobile and tabs.
 
-
 ## Built with
 - React
 - Redux
