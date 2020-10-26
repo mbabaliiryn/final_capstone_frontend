@@ -6,7 +6,7 @@ export const FETCH_ACTIVITIES_SUCCESS = 'FETCH_ACTIVITIES_SUCCESS';
 export const FETCH_ACTIVITIES_FAILURE = 'FETCH_ACTIVITIES_FAILURE';
 export const DELETE_ACTIVITY = 'DELETE_ACTIVITY';
 
-const URL = 'https://tracking-app-api.herokuapp.com/activities';
+const URL = 'http://localhost:3000/activities';
 
 export const fetchActivitiesSuccess = activities => ({
   type: FETCH_ACTIVITIES_SUCCESS,

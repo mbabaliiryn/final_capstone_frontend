@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import addImg from '../images/add-stack.png';
@@ -14,7 +13,7 @@ const Footer = () => (
       className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
       role="button"
     >
-        <img className="footer-img" src={home} alt="add-stack" />
+      <img className="footer-img" src={home} alt="add-stack" />
       <p className="mb-0">Home</p>
     </Link>
     <Link
@@ -22,8 +21,8 @@ const Footer = () => (
       className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
       role="button"
     >
-        <img className="footer-img" src={addImg} alt="add-stack" />
-      
+      <img className="footer-img" src={addImg} alt="add-stack" />
+
       <p className="mb-0">Create Activity</p>
     </Link>
     <Link
@@ -39,11 +38,11 @@ const Footer = () => (
       className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
       role="button"
     >
-        <img className="footer-img" src={trackIt} alt="add-stack" />
+      <img className="footer-img" src={trackIt} alt="add-stack" />
       <p className="mb-0">More</p>
     </Link>
   </footer>
-  
+
 );
 
 export default Footer;

@@ -1,3 +1,5 @@
+/* eslint-disable radix */
+/* eslint-disable import/no-extraneous-dependencies */
 
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
@@ -53,38 +55,40 @@ const CreateMeasurement = ({ location }) => {
     dispatch(createMeasurement({ duration, date }, activity.id));
   };
   return (
-    <div data-testid="appCreateMeasurement" className="measure-section">
-      <div className="activity-header">
-        <p style={{
-          color: 'grey',
-        }}
-        >
-          Measure
-          {' '}
-          { activity.title }
-        </p>
-      </div>
-      <div className="mx-auto mt-4 clock-border">
-        <div className="h1 d-flex justify-content-center">
-          <p>{ watch }</p>
-        </div>
-      </div>
-      <div className="d-flex justify-content-center mt-4 p-2 lower-section-button">
-        <button type="button" onClick={startWatch} className="start-watch mr-1">Start</button>
-        <button type="button" onClick={stopWatch} className="stop-watch mr-1">
-          <Link
-            className="text-white"
-            to={{
-              pathname: `/activity/${activity.id}/measurements`,
-              state: activity,
-            }}
+    <>
+      <div data-testid="appCreateMeasurement" className="measure-section">
+        <div className="activity-header">
+          <p style={{
+            color: 'grey',
+          }}
           >
-            Stop
-          </Link>
-        </button>
+            Measure
+            {' '}
+            { activity.title }
+          </p>
+        </div>
+        <div className="mx-auto mt-4 clock-border">
+          <div className="h1 d-flex justify-content-center">
+            <p>{ watch }</p>
+          </div>
+        </div>
+        <div className="d-flex justify-content-center mt-4 p-2 lower-section-button">
+          <button type="button" onClick={startWatch} className="start-watch mr-1">Start</button>
+          <button type="button" onClick={stopWatch} className="stop-watch mr-1">
+            <Link
+              className="text-white"
+              to={{
+                pathname: `/activity/${activity.id}/measurements`,
+                state: activity,
+              }}
+            >
+              Stop
+            </Link>
+          </button>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </>
   );
 };
 

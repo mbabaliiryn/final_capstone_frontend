@@ -1,23 +1,25 @@
-import React from 'react'
-import {signOut} from '../../actions/index'
-import { useDispatch } from 'react-redux'
+import React from 'react';
+import { useDispatch } from 'react-redux';
+import { signOut } from '../../actions/index';
 
 const Signout = () => {
+  const dispatch = useDispatch();
 
-const dispatch = useDispatch()
+  const logOut = () => {
+    dispatch(signOut());
+  };
 
-const logOut = () => {
-    dispatch(signOut())
-}
+  return (
+    <div data-testid="appSignout">
+      <button
+        onClick={logOut}
+        className="btn btn-secondary"
+        type="button"
+      >
+        Sign Up
+      </button>
+    </div>
+  );
+};
 
-    return(
-        <div data-testid="appSignout">
-            <button 
-            onClick={ logOut } className="btn btn-secondary" 
-            type="button"
-            >Sign Up</button>
-        </div>
-    )
-}
-
-export default Signout
+export default Signout;
