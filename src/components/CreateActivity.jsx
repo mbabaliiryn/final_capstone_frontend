@@ -1,3 +1,4 @@
+/* eslint-disable react/forbid-prop-types */
 /* eslint-disable react/require-default-props */
 /* eslint-disable import/no-extraneous-dependencies */
 import React, { useState } from 'react';
@@ -61,7 +62,7 @@ const CreateActivity = ({ history }) => {
 };
 
 CreateActivity.propTypes = {
-  history: PropTypes.string,
+  history: PropTypes.object,
 };
 
 export default CreateActivity;
