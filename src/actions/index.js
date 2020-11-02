@@ -4,7 +4,7 @@ export const AUTHENTICATED = 'authenticated_user';
 export const UNAUTHENTICATED = 'unauthenticated_user';
 export const AUTHENTICATION_ERROR = 'authentication_error';
 
-const URL = 'http://localhost:3000/';
+const URL = 'https://activities-tracker.herokuapp.com/';
 
 export function signInAction({ username, password }, history) {
   return async dispatch => {

@@ -6,7 +6,7 @@ export const FETCH_ACTIVITIES_SUCCESS = 'FETCH_ACTIVITIES_SUCCESS';
 export const FETCH_ACTIVITIES_FAILURE = 'FETCH_ACTIVITIES_FAILURE';
 export const DELETE_ACTIVITY = 'DELETE_ACTIVITY';
 
-const URL = 'http://localhost:3000/activities';
+const URL = 'https://activities-tracker.herokuapp.com/activities';
 
 export const fetchActivitiesSuccess = activities => ({
   type: FETCH_ACTIVITIES_SUCCESS,
