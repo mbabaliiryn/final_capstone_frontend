@@ -1,12 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`matches Measurement snapshot 1`] = `
-<div
-  className="application-measurement"
-  data-testid="appMeasurement"
->
+<div>
   <div
-    className="application-measurement-one p-1 py-1 pl-2"
+    className="col-md-4p-1 py-1 pl-2"
     style={
       Object {
         "backgroundColor": "#F3F4F6",
@@ -19,7 +16,7 @@ exports[`matches Measurement snapshot 1`] = `
      
   </div>
   <div
-    className="application-measurement-two px-0"
+    className="col-md-4 px-0"
   >
     <div
       className="d-flex p-2 random"
@@ -62,7 +59,7 @@ exports[`matches Measurement snapshot 1`] = `
              
             hrs
             <i
-              className="fas fa-angle-right ml-2 mt-2"
+              className="fas fa-angle-right"
             />
           </span>
         </h6>

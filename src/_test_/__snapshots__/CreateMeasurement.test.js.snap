@@ -35,134 +35,130 @@ Array [
       className="d-flex justify-content-center mt-4 bg-white p-2 lower-section-button"
     >
       <button
-        className="start-watch mr-1"
+        className="start-watch mr-1 text-white"
         onClick={[Function]}
         type="button"
       >
         Start
       </button>
-      <button
-        className="stop-watch mr-1"
+      <a
+        className="text-white stop-watch-link"
+        href="/activity/undefined/measurements"
         onClick={[Function]}
-        type="button"
       >
-        <a
-          className="text-white"
-          href="/activity/undefined/measurements"
+        <button
+          className="stop-watch mr-1 text-white"
           onClick={[Function]}
+          type="button"
         >
           Stop
-        </a>
-      </button>
+        </button>
+      </a>
     </div>
     <div
       className="footer"
       data-testid="appFooter"
     >
-      <div
-        className="link-div px-0"
-        data-testid="appButton"
+      <a
+        aria-current={null}
+        className="nav-link"
+        href="/activities"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "#ABAEB3",
+            "padding": 0,
+            "textDecoration": "none",
+          }
+        }
       >
-        <button
-          className="link-button"
-          type="button"
+        <div
+          className="link-div"
+          data-testid="appButton"
         >
-          <a
-            href="/activities"
-            onClick={[Function]}
-            style={
-              Object {
-                "color": "#ABAEB3",
-              }
-            }
-          >
-            <i
-              className="far fa-chart-bar footer-btn"
-            />
-            <p>
-              Home
-            </p>
-          </a>
-        </button>
-      </div>
-      <div
-        className="link-div px-0"
-        data-testid="appButton"
+          <i
+            className="far fa-chart-bar footer-btn"
+          />
+          <p>
+            Home
+          </p>
+        </div>
+      </a>
+      <a
+        aria-current={null}
+        className="nav-link"
+        href="/create-activity"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "#ABAEB3",
+            "padding": 0,
+            "textDecoration": "none",
+          }
+        }
       >
-        <button
-          className="link-button"
-          type="button"
+        <div
+          className="link-div"
+          data-testid="appButton"
         >
-          <a
-            href="/create-activity"
-            onClick={[Function]}
-            style={
-              Object {
-                "color": "#ABAEB3",
-              }
-            }
-          >
-            <i
-              className="fas fa-chart-line footer-btn"
-            />
-            <p>
-              Create Activity
-            </p>
-          </a>
-        </button>
-      </div>
-      <div
-        className="link-div px-0"
-        data-testid="appButton"
+          <i
+            className="fas fa-chart-line footer-btn"
+          />
+          <p>
+            Create Activity
+          </p>
+        </div>
+      </a>
+      <a
+        aria-current={null}
+        className="nav-link"
+        href="/information"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "#ABAEB3",
+            "padding": 0,
+            "textDecoration": "none",
+          }
+        }
       >
-        <button
-          className="link-button"
-          type="button"
+        <div
+          className="link-div"
+          data-testid="appButton"
         >
-          <a
-            href="/information"
-            onClick={[Function]}
-            style={
-              Object {
-                "color": "#ABAEB3",
-              }
-            }
-          >
-            <i
-              className="fas fa-chart-pie footer-btn"
-            />
-            <p>
-              Information
-            </p>
-          </a>
-        </button>
-      </div>
-      <div
-        className="link-div px-0"
-        data-testid="appButton"
+          <i
+            className="fas fa-chart-pie footer-btn"
+          />
+          <p>
+            Information
+          </p>
+        </div>
+      </a>
+      <a
+        aria-current={null}
+        className="nav-link"
+        href="/activities"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "#ABAEB3",
+            "padding": 0,
+            "textDecoration": "none",
+          }
+        }
       >
-        <button
-          className="link-button"
-          type="button"
+        <div
+          className="link-div"
+          data-testid="appButton"
         >
-          <a
-            href="/activities"
-            onClick={[Function]}
-            style={
-              Object {
-                "color": "#ABAEB3",
-              }
-            }
-          >
-            <i
-              className="fas fa-ellipsis-h footer-btn"
-            />
-            <p>
-              More
-            </p>
-          </a>
-        </button>
-      </div>
+          <i
+            className="fas fa-ellipsis-h footer-btn"
+          />
+          <p>
+            More
+          </p>
+        </div>
+      </a>
     </div>
   </div>,
   ",",

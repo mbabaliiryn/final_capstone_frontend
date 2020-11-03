@@ -1,113 +1,76 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`matches Footer snapshot 1`] = `
-<div
-  className="footer"
-  data-testid="appFooter"
+<footer
+  className="footer mt-auto w-100 button-footer d-flex align-items-center"
 >
-  <div
-    className="link-div px-0"
-    data-testid="appButton"
+  <a
+    className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
+    href="/activities"
+    onClick={[Function]}
+    role="button"
   >
-    <button
-      className="link-button"
-      type="button"
+    <img
+      alt="add-stack"
+      className="footer-img"
+      src="home.png"
+    />
+    <p
+      className="mb-0"
     >
-      <a
-        href="/activities"
-        onClick={[Function]}
-        style={
-          Object {
-            "color": "#ABAEB3",
-          }
-        }
-      >
-        <i
-          className="far fa-chart-bar footer-btn"
-        />
-        <p>
-          Home
-        </p>
-      </a>
-    </button>
-  </div>
-  <div
-    className="link-div px-0"
-    data-testid="appButton"
+      Home
+    </p>
+  </a>
+  <a
+    className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
+    href="/create-activity"
+    onClick={[Function]}
+    role="button"
   >
-    <button
-      className="link-button"
-      type="button"
+    <img
+      alt="add-stack"
+      className="footer-img"
+      src="add-stack.png"
+    />
+    <p
+      className="mb-0"
     >
-      <a
-        href="/create-activity"
-        onClick={[Function]}
-        style={
-          Object {
-            "color": "#ABAEB3",
-          }
-        }
-      >
-        <i
-          className="fas fa-chart-line footer-btn"
-        />
-        <p>
-          Create Activity
-        </p>
-      </a>
-    </button>
-  </div>
-  <div
-    className="link-div px-0"
-    data-testid="appButton"
+      Create Activity
+    </p>
+  </a>
+  <a
+    className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
+    href="/information"
+    onClick={[Function]}
+    role="button"
   >
-    <button
-      className="link-button"
-      type="button"
+    <img
+      alt="add-stack"
+      className="footer-img"
+      src="progress.png"
+    />
+    <p
+      className="mb-0"
     >
-      <a
-        href="/information"
-        onClick={[Function]}
-        style={
-          Object {
-            "color": "#ABAEB3",
-          }
-        }
-      >
-        <i
-          className="fas fa-chart-pie footer-btn"
-        />
-        <p>
-          Information
-        </p>
-      </a>
-    </button>
-  </div>
-  <div
-    className="link-div px-0"
-    data-testid="appButton"
+      Information
+    </p>
+  </a>
+  <a
+    className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
+    href="/activities"
+    onClick={[Function]}
+    role="button"
   >
-    <button
-      className="link-button"
-      type="button"
+    <img
+      alt="add-stack"
+      className="footer-img"
+      src="track-it.png"
+    />
+    <p
+      className="mb-0"
     >
-      <a
-        href="/activities"
-        onClick={[Function]}
-        style={
-          Object {
-            "color": "#ABAEB3",
-          }
-        }
-      >
-        <i
-          className="fas fa-ellipsis-h footer-btn"
-        />
-        <p>
-          More
-        </p>
-      </a>
-    </button>
-  </div>
-</div>
+      More
+    </p>
+  </a>
+</footer>
 `;

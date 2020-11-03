@@ -11,7 +11,9 @@ User can create various activities and monitor his or her progress. For example 
 - React-testing-Library
 
 ## Live Version
-Live Link
+
+- [Live Link](https://activity-tracker-app.netlify.app/)
+
  ## Screenshots
 
 ![Screenshot from 2020-10-20 10-55-04](https://user-images.githubusercontent.com/44978186/96592907-97e94e80-12f1-11eb-9117-74a159145c23.png)

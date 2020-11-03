@@ -7,174 +7,115 @@ Array [
     data-testid="appCreateActivity"
   >
     <div
-      className="create-activity-inner"
+      className=" col-md-3 p-3  bg-secondary"
     >
-      <div
-        className="activity-heading mb-2 p-3"
+      <h3>
+        Create Activity
+      </h3>
+      <form
+        onSubmit={[Function]}
       >
-        <span>
-          You can add a photo to your activity
-        </span>
-      </div>
-      <div
-        className="image-upload m-3 p-2 d-flex"
-      >
-        <div
-          className="left-image"
+        <input
+          className="form-control mb-2"
+          onChange={[Function]}
+          placeholder="Enter Title"
+          type="text"
+          value=""
+        />
+        <br />
+        <input
+          className="form-control"
+          onChange={[Function]}
+          placeholder="Enter Total"
+          type="number"
+          value=""
+        />
+        <br />
+        <input
+          onChange={[Function]}
+          type="file"
+        />
+        <br />
+        <button
+          className="btn btn-success mt-1"
+          type="submit"
         >
-          <i
-            className="fas fa-tv"
-          />
-        </div>
-        <div
-          className="right-image"
-        >
-          <i
-            className="fas fa-church"
-          />
-        </div>
-      </div>
-      <div>
-        <form
-          onSubmit={[Function]}
-        >
-          <input
-            className="input-control mb-2"
-            onChange={[Function]}
-            placeholder="Enter Title"
-            type="text"
-            value=""
-          />
-          <input
-            className="input-control"
-            onChange={[Function]}
-            placeholder="Enter Total"
-            type="number"
-            value=""
-          />
-          <input
-            className="mt-2 btn-control file-section"
-            onChange={[Function]}
-            type="file"
-          />
-          <button
-            className="btn-control mt-1"
-            type="submit"
-          >
-            Create
-          </button>
-        </form>
-      </div>
+          Create
+        </button>
+      </form>
     </div>
-    <div
-      className="footer"
-      data-testid="appFooter"
+    <footer
+      className="footer mt-auto w-100 button-footer d-flex align-items-center"
     >
-      <div
-        className="link-div px-0"
-        data-testid="appButton"
+      <a
+        className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
+        href="/activities"
+        onClick={[Function]}
+        role="button"
       >
-        <button
-          className="link-button"
-          type="button"
+        <img
+          alt="add-stack"
+          className="footer-img"
+          src="home.png"
+        />
+        <p
+          className="mb-0"
         >
-          <a
-            href="/activities"
-            onClick={[Function]}
-            style={
-              Object {
-                "color": "#ABAEB3",
-              }
-            }
-          >
-            <i
-              className="far fa-chart-bar footer-btn"
-            />
-            <p>
-              Home
-            </p>
-          </a>
-        </button>
-      </div>
-      <div
-        className="link-div px-0"
-        data-testid="appButton"
+          Home
+        </p>
+      </a>
+      <a
+        className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
+        href="/create-activity"
+        onClick={[Function]}
+        role="button"
       >
-        <button
-          className="link-button"
-          type="button"
+        <img
+          alt="add-stack"
+          className="footer-img"
+          src="add-stack.png"
+        />
+        <p
+          className="mb-0"
         >
-          <a
-            href="/create-activity"
-            onClick={[Function]}
-            style={
-              Object {
-                "color": "#ABAEB3",
-              }
-            }
-          >
-            <i
-              className="fas fa-chart-line footer-btn"
-            />
-            <p>
-              Create Activity
-            </p>
-          </a>
-        </button>
-      </div>
-      <div
-        className="link-div px-0"
-        data-testid="appButton"
+          Create Activity
+        </p>
+      </a>
+      <a
+        className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
+        href="/information"
+        onClick={[Function]}
+        role="button"
       >
-        <button
-          className="link-button"
-          type="button"
+        <img
+          alt="add-stack"
+          className="footer-img"
+          src="progress.png"
+        />
+        <p
+          className="mb-0"
         >
-          <a
-            href="/information"
-            onClick={[Function]}
-            style={
-              Object {
-                "color": "#ABAEB3",
-              }
-            }
-          >
-            <i
-              className="fas fa-chart-pie footer-btn"
-            />
-            <p>
-              Information
-            </p>
-          </a>
-        </button>
-      </div>
-      <div
-        className="link-div px-0"
-        data-testid="appButton"
+          Information
+        </p>
+      </a>
+      <a
+        className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
+        href="/activities"
+        onClick={[Function]}
+        role="button"
       >
-        <button
-          className="link-button"
-          type="button"
+        <img
+          alt="add-stack"
+          className="footer-img"
+          src="track-it.png"
+        />
+        <p
+          className="mb-0"
         >
-          <a
-            href="/activities"
-            onClick={[Function]}
-            style={
-              Object {
-                "color": "#ABAEB3",
-              }
-            }
-          >
-            <i
-              className="fas fa-ellipsis-h footer-btn"
-            />
-            <p>
-              More
-            </p>
-          </a>
-        </button>
-      </div>
-    </div>
+          More
+        </p>
+      </a>
+    </footer>
   </div>,
   ",",
 ]

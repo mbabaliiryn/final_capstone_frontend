@@ -7,7 +7,7 @@ Array [
     data-testid="appActivity"
   >
     <div
-      className="image-section p-3"
+      className="image-section"
     >
       <img
         alt="boohoo"
@@ -50,15 +50,17 @@ Array [
           onClick={[Function]}
         >
           <button
-            className="button-details w-75 mr-1"
+            className="button-details"
             type="button"
           >
             Details
           </button>
         </a>
-        <div>
+        <div
+          className="activity-link"
+        >
           <i
-            className="far fa-trash-alt trash-section"
+            className="far fa-trash-alt trash-section text-danger"
             onClick={[Function]}
           />
         </div>

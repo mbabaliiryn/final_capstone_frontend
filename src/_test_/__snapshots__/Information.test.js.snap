@@ -34,110 +34,106 @@ exports[`matches Information snapshot 1`] = `
     className="footer"
     data-testid="appFooter"
   >
-    <div
-      className="link-div px-0"
-      data-testid="appButton"
+    <a
+      aria-current={null}
+      className="nav-link"
+      href="/activities"
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "#ABAEB3",
+          "padding": 0,
+          "textDecoration": "none",
+        }
+      }
     >
-      <button
-        className="link-button"
-        type="button"
+      <div
+        className="link-div"
+        data-testid="appButton"
       >
-        <a
-          href="/activities"
-          onClick={[Function]}
-          style={
-            Object {
-              "color": "#ABAEB3",
-            }
-          }
-        >
-          <i
-            className="far fa-chart-bar footer-btn"
-          />
-          <p>
-            Home
-          </p>
-        </a>
-      </button>
-    </div>
-    <div
-      className="link-div px-0"
-      data-testid="appButton"
+        <i
+          className="far fa-chart-bar footer-btn"
+        />
+        <p>
+          Home
+        </p>
+      </div>
+    </a>
+    <a
+      aria-current={null}
+      className="nav-link"
+      href="/create-activity"
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "#ABAEB3",
+          "padding": 0,
+          "textDecoration": "none",
+        }
+      }
     >
-      <button
-        className="link-button"
-        type="button"
+      <div
+        className="link-div"
+        data-testid="appButton"
       >
-        <a
-          href="/create-activity"
-          onClick={[Function]}
-          style={
-            Object {
-              "color": "#ABAEB3",
-            }
-          }
-        >
-          <i
-            className="fas fa-chart-line footer-btn"
-          />
-          <p>
-            Create Activity
-          </p>
-        </a>
-      </button>
-    </div>
-    <div
-      className="link-div px-0"
-      data-testid="appButton"
+        <i
+          className="fas fa-chart-line footer-btn"
+        />
+        <p>
+          Create Activity
+        </p>
+      </div>
+    </a>
+    <a
+      aria-current={null}
+      className="nav-link"
+      href="/information"
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "#ABAEB3",
+          "padding": 0,
+          "textDecoration": "none",
+        }
+      }
     >
-      <button
-        className="link-button"
-        type="button"
+      <div
+        className="link-div"
+        data-testid="appButton"
       >
-        <a
-          href="/information"
-          onClick={[Function]}
-          style={
-            Object {
-              "color": "#ABAEB3",
-            }
-          }
-        >
-          <i
-            className="fas fa-chart-pie footer-btn"
-          />
-          <p>
-            Information
-          </p>
-        </a>
-      </button>
-    </div>
-    <div
-      className="link-div px-0"
-      data-testid="appButton"
+        <i
+          className="fas fa-chart-pie footer-btn"
+        />
+        <p>
+          Information
+        </p>
+      </div>
+    </a>
+    <a
+      aria-current={null}
+      className="nav-link"
+      href="/activities"
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "#ABAEB3",
+          "padding": 0,
+          "textDecoration": "none",
+        }
+      }
     >
-      <button
-        className="link-button"
-        type="button"
+      <div
+        className="link-div"
+        data-testid="appButton"
       >
-        <a
-          href="/activities"
-          onClick={[Function]}
-          style={
-            Object {
-              "color": "#ABAEB3",
-            }
-          }
-        >
-          <i
-            className="fas fa-ellipsis-h footer-btn"
-          />
-          <p>
-            More
-          </p>
-        </a>
-      </button>
-    </div>
+        <i
+          className="fas fa-ellipsis-h footer-btn"
+        />
+        <p>
+          More
+        </p>
+      </div>
+    </a>
   </div>
 </div>
 `;

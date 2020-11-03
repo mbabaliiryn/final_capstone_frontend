@@ -2,11 +2,10 @@
 
 exports[`matches Signup snapshot 1`] = `
 <div
-  className="general-login-section"
   data-testid="appSignup"
 >
   <div
-    className="login-section p-3"
+    className=" login-section col-md-6  p-3"
   >
     <h3>
       Sign Up
@@ -15,37 +14,38 @@ exports[`matches Signup snapshot 1`] = `
       onSubmit={[Function]}
     >
       <input
+        className="form-control col-md-6 mb-2"
         onChange={[Function]}
         placeholder="Enter User Name"
         value=""
       />
+      <br />
       <input
+        className="form-control col-md-6 mb-2"
         onChange={[Function]}
         placeholder="Enter Password"
         type="password"
         value=""
       />
+      <br />
       <input
+        className="form-control col-md-6"
         onChange={[Function]}
         placeholder="Enter Age"
         value=""
       />
-      <p
-        className="text-danger"
-      >
-        test
-      </p>
       <button
-        className="btn btn-primary"
+        className="btn btn-primary mt-2"
         type="submit"
       >
         Submit
       </button>
     </form>
     <a
-      href="/"
+      href="/signin"
       onClick={[Function]}
     >
+      <br />
       Already have an Account?
     </a>
   </div>

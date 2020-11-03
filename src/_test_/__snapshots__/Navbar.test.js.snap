@@ -9,14 +9,14 @@ exports[`matches navbar snapshot 1`] = `
     className="header-section"
   >
     <h3>
-      Track it
+      Activity Tracking App
     </h3>
   </div>
   <div
     className="itag-section"
   >
     <i
-      className="fas fa-power-off"
+      className="fas fa-bars"
       onClick={[Function]}
     />
   </div>
