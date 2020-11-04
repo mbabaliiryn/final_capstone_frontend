@@ -7,7 +7,7 @@ import progress from '../images/progress.png';
 
 const Footer = () => (
 
-  <footer className="footer mt-auto w-100 button-footer d-flex align-items-center">
+  <footer data-testid="appFooter" className="footer mt-auto w-100 button-footer d-flex align-items-center">
     <Link
       to="/activities"
       className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"

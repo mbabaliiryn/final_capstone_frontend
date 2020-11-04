@@ -15,13 +15,7 @@ it('renders without crashing', () => {
 it('renders nav-bar correctly', () => {
   const { getAllByTestId } = render(<Navbar />);
   const result = getAllByTestId('navbar');
-  expect(result[0]).toHaveTextContent('Track it');
-});
-
-it('renders nav-bar correctly', () => {
-  const { getAllByTestId } = render(<Navbar />);
-  const result = getAllByTestId('navbar');
-  expect(result[0]).not.toHaveTextContent('Track all');
+  expect(result[0]).toHaveTextContent('Activity Tracking App');
 });
 
 it('matches navbar snapshot', () => {

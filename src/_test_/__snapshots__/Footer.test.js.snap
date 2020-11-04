@@ -3,6 +3,7 @@
 exports[`matches Footer snapshot 1`] = `
 <footer
   className="footer mt-auto w-100 button-footer d-flex align-items-center"
+  data-testid="appFooter"
 >
   <a
     className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"

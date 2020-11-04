@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable import/named */
 import {
   fetchActivitiesSuccess,
@@ -32,16 +33,5 @@ describe('activities', () => {
     };
     expect(fetchActivitiesFailure(error)).toEqual(expectedAction);
     expect(fetchActivitiesFailure(error)).not.toEqual('some random string');
-  });
-
-  it('delete an activity', () => {
-    const id = 12;
-
-    const expectedAction = {
-      type: DELETE_ACTIVITY,
-      payload: id,
-    };
-    expect(deleteActivityRequest(id)).toEqual(expectedAction);
-    expect(deleteActivityRequest(id)).not.toEqual('some random id');
   });
 });

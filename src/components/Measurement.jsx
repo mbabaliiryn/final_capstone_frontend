@@ -79,7 +79,7 @@ const Measurement = ({ measurement, index, diffVal }) => {
     );
   }
   return (
-    <div>
+    <div data-testid="appMeasurement">
       <div
         className="col-md-4p-1 py-1 pl-2"
         style={{

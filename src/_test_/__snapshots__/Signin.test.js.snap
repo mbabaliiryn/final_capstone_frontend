@@ -2,11 +2,10 @@
 
 exports[`matches Signin snapshot 1`] = `
 <div
-  className="general-login-section"
   data-testid="appSignin"
 >
   <div
-    className="login-section p-3"
+    className="login-section col-md-6 p-3 d-flex flex-column justify-content-around align-items-center"
   >
     <h3>
       Log In
@@ -15,19 +14,20 @@ exports[`matches Signin snapshot 1`] = `
       onSubmit={[Function]}
     >
       <input
+        className="form-control mb-2 col-md-6"
         onChange={[Function]}
         placeholder="Enter User Name"
         value=""
       />
+      <br />
       <input
+        className="form-control col-md-6"
         onChange={[Function]}
         placeholder="Enter Password"
         type="password"
         value=""
       />
-      <p
-        className="text-danger"
-      >
+      <p>
         test
       </p>
       <button
@@ -41,6 +41,7 @@ exports[`matches Signin snapshot 1`] = `
       href="/signup"
       onClick={[Function]}
     >
+      <br />
       Don't have an account?
     </a>
   </div>

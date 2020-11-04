@@ -7,7 +7,7 @@ Array [
     data-testid="appActivity"
   >
     <div
-      className="image-section"
+      className="w-50 image-section p-3"
     >
       <img
         alt="boohoo"
@@ -18,17 +18,15 @@ Array [
     <div
       className="activity-body ml-1"
     >
-      <div
-        className="w-100 title-div-section"
-      >
+      <div>
         <div
-          className="activity-title text-secondary d-flex"
+          className="activity-title"
         >
           test title
         </div>
       </div>
       <div
-        className="activity-text text-secondary d-flex"
+        className="activity-text d-flex"
       >
         <div
           className="activity-inner"
@@ -49,21 +47,12 @@ Array [
           href="/activity/undefined/measurements"
           onClick={[Function]}
         >
-          <button
-            className="button-details"
-            type="button"
-          >
-            Details
-          </button>
+          Details
         </a>
-        <div
-          className="activity-link"
-        >
-          <i
-            className="far fa-trash-alt trash-section text-danger"
-            onClick={[Function]}
-          />
-        </div>
+        <i
+          className="far fa-trash-alt ml-4 trash-section"
+          onClick={[Function]}
+        />
       </div>
     </div>
   </div>,

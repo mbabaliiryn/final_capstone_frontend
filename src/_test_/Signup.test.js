@@ -30,7 +30,7 @@ it('renders Signup correctly', () => {
     </Router>,
   );
   const result = getAllByTestId('appSignup');
-  expect(result[0]).toHaveTextContent('Sign UptestSubmitAlready have an Account?');
+  expect(result[0]).toHaveTextContent('Already have an Account?');
 });
 
 it('renders Signup correctly', () => {

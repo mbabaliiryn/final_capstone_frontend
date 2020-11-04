@@ -13,7 +13,7 @@ exports[`matches Information snapshot 1`] = `
       <h5
         className="mx-auto"
       >
-         Copyright © 2020 by Odong Alican 
+         Copyright © 2020 by Nanyonjo Irene 
       </h5>
     </div>
     <div
@@ -26,114 +26,82 @@ exports[`matches Information snapshot 1`] = `
     >
       For permission requests, write to the Software developer, addressed “Attention: Permissions Coordinator,” at the address below.
       <p>
-        sandieo.2020@gmail.com
+        mbabaliiryn@gmail.com
       </p>
     </div>
   </div>
-  <div
-    className="footer"
+  <footer
+    className="footer mt-auto w-100 button-footer d-flex align-items-center"
     data-testid="appFooter"
   >
     <a
-      aria-current={null}
-      className="nav-link"
+      className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
       href="/activities"
       onClick={[Function]}
-      style={
-        Object {
-          "color": "#ABAEB3",
-          "padding": 0,
-          "textDecoration": "none",
-        }
-      }
+      role="button"
     >
-      <div
-        className="link-div"
-        data-testid="appButton"
+      <img
+        alt="add-stack"
+        className="footer-img"
+        src="home.png"
+      />
+      <p
+        className="mb-0"
       >
-        <i
-          className="far fa-chart-bar footer-btn"
-        />
-        <p>
-          Home
-        </p>
-      </div>
+        Home
+      </p>
     </a>
     <a
-      aria-current={null}
-      className="nav-link"
+      className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
       href="/create-activity"
       onClick={[Function]}
-      style={
-        Object {
-          "color": "#ABAEB3",
-          "padding": 0,
-          "textDecoration": "none",
-        }
-      }
+      role="button"
     >
-      <div
-        className="link-div"
-        data-testid="appButton"
+      <img
+        alt="add-stack"
+        className="footer-img"
+        src="add-stack.png"
+      />
+      <p
+        className="mb-0"
       >
-        <i
-          className="fas fa-chart-line footer-btn"
-        />
-        <p>
-          Create Activity
-        </p>
-      </div>
+        Create Activity
+      </p>
     </a>
     <a
-      aria-current={null}
-      className="nav-link"
+      className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
       href="/information"
       onClick={[Function]}
-      style={
-        Object {
-          "color": "#ABAEB3",
-          "padding": 0,
-          "textDecoration": "none",
-        }
-      }
+      role="button"
     >
-      <div
-        className="link-div"
-        data-testid="appButton"
+      <img
+        alt="add-stack"
+        className="footer-img"
+        src="progress.png"
+      />
+      <p
+        className="mb-0"
       >
-        <i
-          className="fas fa-chart-pie footer-btn"
-        />
-        <p>
-          Information
-        </p>
-      </div>
+        Information
+      </p>
     </a>
     <a
-      aria-current={null}
-      className="nav-link"
+      className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
       href="/activities"
       onClick={[Function]}
-      style={
-        Object {
-          "color": "#ABAEB3",
-          "padding": 0,
-          "textDecoration": "none",
-        }
-      }
+      role="button"
     >
-      <div
-        className="link-div"
-        data-testid="appButton"
+      <img
+        alt="add-stack"
+        className="footer-img"
+        src="track-it.png"
+      />
+      <p
+        className="mb-0"
       >
-        <i
-          className="fas fa-ellipsis-h footer-btn"
-        />
-        <p>
-          More
-        </p>
-      </div>
+        More
+      </p>
     </a>
-  </div>
+  </footer>
 </div>
 `;

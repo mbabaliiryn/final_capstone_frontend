@@ -12,7 +12,7 @@ const Activities = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchActivities());
-  }, [dispatch]);
+  }, []);
 
   const todaysDate = new Date();
   const result = todaysDate.toUTCString().split(' ');
@@ -26,20 +26,31 @@ const Activities = () => {
       {' '}
     </div>
   )
-    : activitiesReducer.data ? (
+    : activitiesReducer.error ? (
       <div data-testid="appActivities">
         {' '}
-        { activitiesReducer.data }
+        { activitiesReducer.error }
         {' '}
       </div>
     )
       : (
         <div data-testid="appActivities" className="home-section">
-          <div className="d-flex justify-content-center align-items-center pt-2">{ finalValue }</div>
-          <div className="w-100">
+
+          <div className="d-flex justify-content-center align-items-center py-3 date-section">
+            <div className="first-div">
+              <i className="fas fa-angle-left" />
+            </div>
+            <div className="second-div">
+              { finalValue }
+            </div>
+            <div className="third-div">
+              <i className="fas fa-angle-right" />
+            </div>
+          </div>
+          <div className="summary-display-section">
             <Summary activities={activitiesReducer.activities} />
           </div>
-          <div className="row col-sm-12 m-1 activities-main">
+          <div className="d-flex activities-main row">
             {
                 activitiesReducer.activities.map((activity, key) => (
                   <Activity activity={activity} key={key} />

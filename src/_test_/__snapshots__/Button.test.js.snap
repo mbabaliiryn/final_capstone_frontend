@@ -2,31 +2,26 @@
 
 exports[`matches Button snapshot 1`] = `
 Array [
-  <a
-    aria-current={null}
-    className="nav-link"
-    href="/test-path"
-    onClick={[Function]}
-    style={
-      Object {
-        "color": "#ABAEB3",
-        "padding": 0,
-        "textDecoration": "none",
-      }
-    }
+  <div
+    className="link-div px-0"
+    data-testid="appButton"
   >
-    <div
-      className="link-div"
-      data-testid="appButton"
+    <button
+      className="link-button w-100 h-100"
     >
-      <i
-        className="sample color"
-      />
-      <p>
+      <a
+        href="/test-path"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "#ABAEB3",
+          }
+        }
+      >
         test name
-      </p>
-    </div>
-  </a>,
+      </a>
+    </button>
+  </div>,
   ",",
 ]
 `;

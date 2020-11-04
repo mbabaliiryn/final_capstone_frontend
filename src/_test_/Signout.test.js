@@ -27,7 +27,7 @@ it('renders Signout correctly', () => {
     </Router>,
   );
   const result = getAllByTestId('appSignout');
-  expect(result[0]).toHaveTextContent('Sign Out');
+  expect(result[0]).toHaveTextContent('Sign Up');
 });
 
 it('renders Signout correctly', () => {

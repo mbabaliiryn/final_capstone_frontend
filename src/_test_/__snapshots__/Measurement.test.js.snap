@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`matches Measurement snapshot 1`] = `
-<div>
+<div
+  data-testid="appMeasurement"
+>
   <div
     className="col-md-4p-1 py-1 pl-2"
     style={

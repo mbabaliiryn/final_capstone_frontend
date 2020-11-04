@@ -30,19 +30,6 @@ it('renders CreatActivity correctly', () => {
     </Router>,
   );
   const result = getAllByTestId('appCreateActivity');
-  expect(result[0])
-    .toHaveTextContent('You can add a photo to your activityCreateHomeCreate ActivityInformationMore');
-});
-
-it('renders CreatActivity correctly', () => {
-  store = mockStore(initialState);
-  const { getAllByTestId } = render(
-    <Router>
-      <Provider store={store}><CreateActivity props={props} /></Provider>
-      ,
-    </Router>,
-  );
-  const result = getAllByTestId('appCreateActivity');
   expect(result[0]).not
     .toHaveTextContent('Some Random Text');
 });
