@@ -31,7 +31,7 @@ User can create various activities and monitor his or her progress. For example 
 
 ## Live demo
 
-[Live Link](https://gracious-blackwell-9534ef.netlify.app/)
+[Live Link](https://activity-tracking-app.netlify.app/)
 
 ## Project Setup
 - Fork the Project to your remote repository
