@@ -12,7 +12,7 @@ const Activities = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchActivities());
-  }, []);
+  }, [dispatch]);
 
   const todaysDate = new Date();
   const result = todaysDate.toUTCString().split(' ');

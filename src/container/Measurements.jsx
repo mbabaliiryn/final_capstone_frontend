@@ -17,7 +17,7 @@ const Measurements = ({ location }) => {
 
   useEffect(() => {
     dispatch(fetchMeasurements(activity.id));
-  }, []);
+  }, [dispatch]);
 
   const measurements = useSelector(state => state.measurementsReducer.measurements);
 
