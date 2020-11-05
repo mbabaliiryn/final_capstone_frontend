@@ -42,23 +42,6 @@ it('renders Measurement correctly', () => {
   expect(result[0]).toHaveTextContent('Invalid Date Hours 0.00 hrs');
 });
 
-// it('renders Measurement correctly', () => {
-//   store = mockStore(initialState);
-//   const { getAllByTestId } = render(
-//     <Router>
-//       <Provider store={store}>
-//         <Measurement
-//           measurement={measurement}
-//           index={index}
-//           diffVal={diffVal}
-//         />
-//       </Provider>
-//     </Router>,
-//   );
-//   const result = getAllByTestId('appMeasurement');
-//   expect(result[0]).not.toHaveTextContent('Some Random Text');
-// });
-
 it('matches Measurement snapshot', () => {
   const appointment = renderer.create(
     <Router>

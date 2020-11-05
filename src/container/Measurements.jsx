@@ -1,28 +1,27 @@
+/* eslint-disable react/require-default-props */
 /* eslint-disable react/no-array-index-key */
-/* eslint-disable react/button-has-type */
-/* eslint-disable react/prop-types */
-/* eslint-disable react/destructuring-assignment */
+/* eslint-disable import/no-extraneous-dependencies */
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import Measurement from '../components/Measurement';
 import { fetchMeasurements } from '../actions/measurementsAction';
 import Footer from '../components/Footer';
 
-const Measurements = props => {
-  const activityId = props.location.state;
-  const { actTitle } = props.location;
+const Measurements = ({ location }) => {
+  const activity = location.state;
   const dispatch = useDispatch();
   const timeDifference = [];
   const diffVal = [];
 
   useEffect(() => {
-    dispatch(fetchMeasurements(activityId));
-  }, [activityId, dispatch]);
+    dispatch(fetchMeasurements(activity.id));
+  }, []);
 
   const measurements = useSelector(state => state.measurementsReducer.measurements);
 
-  for (let i = 0; i < measurements.length; i++) {
+  for (let i = 0; i < measurements.length; i += 1) {
     timeDifference.push(parseFloat(measurements[i].duration));
     if (timeDifference.length === 1) {
       diffVal.push(timeDifference[0]);
@@ -35,22 +34,22 @@ const Measurements = props => {
 
   return (
     <div data-testid="appMeasurements">
-      <div className="measurement-top">
-        <button className="btn btn-primary mt-2 ml-2 ">
+      <div className="measurement-outer-section">
+        <div className="measurement-top d-flex">
           <Link
-            className="text-white"
+            className="link-class"
             to={{
-              pathname: `/activity/${activityId}/create`,
-              state: activityId,
-              actTitle,
+              pathname: `/activity/${activity.id}/create`,
+              state: activity,
             }}
           >
-            +
+            <button type="button" className="btn-plus mt-2 mr-1 text-white">
+              +
+            </button>
           </Link>
-        </button>
-      </div>
-      <div>
-        {
+        </div>
+        <div>
+          {
                     measurements.map((measurement, index) => (
                       <Measurement
                         key={index}
@@ -60,10 +59,17 @@ const Measurements = props => {
                       />
                     ))
                 }
+        </div>
       </div>
       <Footer />
     </div>
   );
+};
+
+Measurements.propTypes = {
+  location: PropTypes.objectOf(PropTypes.shape({
+    id: PropTypes.number,
+  })),
 };
 
 export default Measurements;
