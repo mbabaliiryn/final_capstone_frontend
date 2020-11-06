@@ -1,0 +1,433 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.link-button {
+  border: none;
+  width: 100%;
+  height: 100%;
+  background-color: #303944;
+}
+
+.link-button p {
+  font-size: small;
+}
+
+.link-div {
+  height: 70px;
+  width: 25%;
+}
+
+.percentage-section {
+  width: 95px;
+  border: 5px solid lightgray;
+  height: 90px;
+  border-radius: 50%;
+  margin: auto;
+  font-size: x-large;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #738497;
+}
+
+.title-section {
+  text-align: center;
+  font-size: small;
+  color: lightgray;
+  padding-top: 5px;
+}
+
+.main-section {
+  width: 45%;
+  height: 100px;
+  position: relative;
+  margin: 11px 11px;
+}
+
+i {
+  cursor: pointer;
+}
+
+.summary-section {
+  overflow-x: auto;
+  width: 477px;
+}
+
+.summary-alignment {
+  display: flex;
+  align-items: center;
+}
+
+.summary-section::-webkit-scrollbar {
+  width: 0;
+}
+
+.card-stuff {
+  min-width: 167px;
+}
+
+.activities-main {
+  background-color: #f3f4f6;
+}
+
+.lower-section {
+  position: absolute;
+  bottom: 0;
+}
+
+.links-info {
+  font-size: small;
+  text-decoration: none;
+  color: lightgray;
+  font-weight: bold;
+}
+
+.image-det {
+  width: 100%;
+  height: 100%;
+}
+
+.home-section {
+  height: 100vh;
+  position: relative;
+  margin-top: 60px;
+}
+
+.image-section {
+  height: 100%;
+  background-color: #f3f4f6;
+}
+
+.trash-section {
+  color: lightgray;
+}
+
+.trash-section:hover {
+  color: deepskyblue;
+}
+
+.activity-title {
+  font-size: small;
+  font-weight: bold;
+}
+
+.menu-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100vh;
+  z-index: 1;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-mask {
+  background-color: #000;
+  opacity: 0.6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+
+.itag-section {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.header-section {
+  flex: 7;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.display-positive,
+.display-negative {
+  width: 50px;
+  border: 5px solid lightgray;
+  height: 50px;
+  border-radius: 50%;
+  margin: auto;
+  font-size: small;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #738497;
+}
+
+.random {
+  align-items: center;
+  width: 95%;
+  margin: auto;
+}
+
+.clock-border {
+  height: 17em;
+  display: flex;
+  width: 17em;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/hours.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.start-watch,
+.stop-watch {
+  border: none;
+  padding: 15px 50px;
+  color: rgb(255, 255, 255);
+}
+
+.start-watch {
+  background-color: rgba(46, 88, 3, 0.623);
+  border-radius: 30px;
+}
+
+.stop-watch {
+  background-color: #ee190a;
+  border-radius: 30px;
+}
+
+.activity-header {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.measure-section {
+  background-color: #f3f4f6;
+  height: 100vh;
+  margin-top: 60px;
+}
+
+.lower-section-button {
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+}
+
+.nav-bar-section {
+  position: fixed;
+  background-color: #42b5e8;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  padding: 0 20px;
+}
+
+.measurement-top {
+  margin-top: 60px;
+}
+
+.date-value {
+  display: flex;
+  flex-direction: column;
+  color: #597085;
+  justify-content: flex-end;
+}
+
+.date-value h6 {
+  font-weight: bold;
+}
+
+.date-value span {
+  font-size: small;
+  font-weight: bold;
+}
+
+.btn-plus {
+  border: none;
+  background-color: #42b5e8;
+  padding: 5px 10px;
+  font-weight: bold;
+  margin-bottom: 3px;
+  margin-left: auto;
+}
+
+.create-activity {
+  margin-top: 60px;
+  height: 100vh;
+  background-color: #f3f4f6;
+}
+
+.activity-heading {
+  padding: 10px;
+  text-align: center;
+  color: #afb0b2;
+  width: 100%;
+  background-color: #fff;
+}
+
+.image-upload {
+  background-color: #fff;
+}
+
+.left-image,
+.right-image {
+  background-color: #a3a6ad;
+  margin: 0 5px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 150px;
+  color: #d1d2d6;
+}
+
+.input-control {
+  width: 93%;
+  border: none;
+  height: 35px;
+  margin-left: 1em;
+  padding: 10px;
+}
+
+.btn-control {
+  padding: 10px 25px;
+  background-color: #97e494;
+  border: none;
+  color: #fff;
+  margin-left: 1em;
+}
+
+.file-section {
+  background-color: #a3a6ad;
+  padding: 10px;
+}
+
+.information-section {
+  margin-top: 60px;
+  background-color: #f3f4f6;
+  padding: 20px;
+  height: 100vh;
+}
+
+.copyright {
+  font-size: medium;
+  margin-bottom: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #fff;
+}
+
+.date-section {
+  border-bottom: 2px solid #f3f4f6;
+  color: #a3a6ad;
+}
+
+.activity-text small {
+  font-weight: bold;
+}
+
+.activity-inner {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.first-div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.second-div {
+  flex: 4;
+  display: flex;
+  justify-content: center;
+}
+
+.third-div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.add-stack {
+  font-size: 1.5rem;
+  color: #313944;
+}
+
+.card {
+  margin-left: 25em;
+  margin-top: 5rem;
+}
+
+form {
+  width: 100%;
+}
+
+.footer-btn {
+  font-size: 25px;
+}
+
+.general-login-section {
+  padding: 30px 10%;
+}
+
+.login-section {
+  background-color: #d2d6df;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-section input {
+  border: none;
+  width: 90%;
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 20px;
+  font-size: medium;
+  font-weight: normal;
+  outline: none;
+}
+
+.button-footer {
+  background-color: #313944;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-btn:focus {
+  background-color: #41b5e8 !important;
+  color: #fff !important;
+}
+
+.footer-btn:visited {
+  background-color: #41b5e8 !important;
+  color: #fff !important;
+}
+
+.button-footer .btn {
+  color: #acafb4;
+  font-size: 1rem;
+}
+
+.footer-img {
+  width: 30%;
+}
+
+.footer-btn:active {
+  background-color: #41b5e8 !important;
+  color: #fff !important;
+}

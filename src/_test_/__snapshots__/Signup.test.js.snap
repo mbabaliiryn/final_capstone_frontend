@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches Signup snapshot 1`] = `
+<div
+  data-testid="appSignup"
+>
+  <div
+    className=" login-section col-md-6  p-3"
+  >
+    <h3>
+      Sign Up
+    </h3>
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        className="form-control col-md-6 mb-2"
+        onChange={[Function]}
+        placeholder="Enter User Name"
+        value=""
+      />
+      <br />
+      <input
+        className="form-control col-md-6 mb-2"
+        onChange={[Function]}
+        placeholder="Enter Password"
+        type="password"
+        value=""
+      />
+      <br />
+      <input
+        className="form-control col-md-6"
+        onChange={[Function]}
+        placeholder="Enter Age"
+        value=""
+      />
+      <button
+        className="btn btn-primary mt-2"
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+    <a
+      href="/signin"
+      onClick={[Function]}
+    >
+      <br />
+      Already have an Account?
+    </a>
+  </div>
+</div>
+`;
