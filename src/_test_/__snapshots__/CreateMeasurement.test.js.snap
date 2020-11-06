@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches CreateMeasurement snapshot 1`] = `
+Array [
+  <div
+    className="measure-section"
+    data-testid="appCreateMeasurement"
+  >
+    <div
+      className="activity-header"
+    >
+      <p
+        style={
+          Object {
+            "color": "grey",
+          }
+        }
+      >
+        Measure
+         
+      </p>
+    </div>
+    <div
+      className="mx-auto mt-4 clock-border"
+    >
+      <div
+        className="h1 d-flex justify-content-center"
+      >
+        <p>
+          00:00:00:00
+        </p>
+      </div>
+    </div>
+    <div
+      className="d-flex justify-content-center mt-4 p-2 lower-section-button"
+    >
+      <button
+        className="start-watch mr-1"
+        onClick={[Function]}
+        type="button"
+      >
+        Start
+      </button>
+      <button
+        className="stop-watch mr-1"
+        onClick={[Function]}
+        type="button"
+      >
+        <a
+          className="text-white"
+          href="/activity/undefined/measurements"
+          onClick={[Function]}
+        >
+          Stop
+        </a>
+      </button>
+    </div>
+    <footer
+      className="footer mt-auto w-100 button-footer d-flex align-items-center"
+      data-testid="appFooter"
+    >
+      <a
+        className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
+        href="/activities"
+        onClick={[Function]}
+        role="button"
+      >
+        <img
+          alt="add-stack"
+          className="footer-img"
+          src="home.png"
+        />
+        <p
+          className="mb-0"
+        >
+          Home
+        </p>
+      </a>
+      <a
+        className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
+        href="/create-activity"
+        onClick={[Function]}
+        role="button"
+      >
+        <img
+          alt="add-stack"
+          className="footer-img"
+          src="add-stack.png"
+        />
+        <p
+          className="mb-0"
+        >
+          Create Activity
+        </p>
+      </a>
+      <a
+        className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
+        href="/information"
+        onClick={[Function]}
+        role="button"
+      >
+        <img
+          alt="add-stack"
+          className="footer-img"
+          src="progress.png"
+        />
+        <p
+          className="mb-0"
+        >
+          Information
+        </p>
+      </a>
+      <a
+        className="btn btn-lg w-25 h-100 d-flex flex-column align-items-center py-1 px-0 justify-content-between footer-btn"
+        href="/activities"
+        onClick={[Function]}
+        role="button"
+      >
+        <img
+          alt="add-stack"
+          className="footer-img"
+          src="track-it.png"
+        />
+        <p
+          className="mb-0"
+        >
+          More
+        </p>
+      </a>
+    </footer>
+  </div>,
+  ",",
+]
+`;
